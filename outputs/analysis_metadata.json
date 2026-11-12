@@ -1,0 +1,32 @@
+{
+  "source": "https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset",
+  "source_sha256": "136c2e86e2e231c9a95adeaa554158c13677062688d27ccf024975f41eae9801",
+  "grain": "one source record per customer ID",
+  "raw_rows": 350,
+  "cleaned_rows": 350,
+  "analysis_rows": 350,
+  "filters": {
+    "city": null,
+    "membership": null
+  },
+  "missing_by_column": {
+    "Customer ID": 0,
+    "Gender": 0,
+    "Age": 0,
+    "City": 0,
+    "Membership Type": 0,
+    "Total Spend": 0,
+    "Items Purchased": 0,
+    "Average Rating": 0,
+    "Discount Applied": 0,
+    "Days Since Last Purchase": 0,
+    "Satisfaction Level": 2
+  },
+  "exact_duplicate_rows": 0,
+  "repeat_profiles_excluding_customer_id": 180,
+  "complete_item_spend_pairs": 350,
+  "item_spend_pearson_correlation": 0.9724247945494613,
+  "population": "All cleaned records unless command-line filters are specified.",
+  "currency_and_period": "Not specified by the source.",
+  "interpretation": "Group differences and correlation are descriptive and do not prove causation or proportionality."
+}
